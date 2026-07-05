@@ -1,0 +1,18 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  transition: all 0.3s ease;
+  font-family: sans-serif;
+}
+
+
+.Container {
+  display: flex;
+  margin-top: 10px;
+}
+
+.Link {
+  text-decoration: none;
+  color: inherit;
+}

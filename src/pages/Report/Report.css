@@ -1,0 +1,58 @@
+.userList {
+    flex: 4;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    background-color: #fff;
+    max-height: 550px;
+    height: 474px;
+}
+
+.userListUser {
+    display: flex;
+    align-items: center;
+}
+
+.userListImg {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin: 8px;
+    object-fit: cover;
+    border: 1px solid #5550bd;
+}
+
+.userReportAction {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;   
+}
+
+.userListReport {
+    padding: 5px 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    border: 1px solid rgb(228, 3, 3);
+    transition: all 0.3s ease;
+    min-width: 80px;
+    background-color: rgb(228, 3, 3);
+    color: #fff;
+    margin-right: 20px;
+}
+
+.userListReport:hover {
+    background-color: #fff;
+    color: rgb(228, 3, 3);
+}
+
+
+.userDeleteAlert {
+  position: fixed;
+  top: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 9999;
+  width: 400px;
+}

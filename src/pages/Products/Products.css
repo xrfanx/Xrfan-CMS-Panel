@@ -1,0 +1,53 @@
+.productList {
+    flex: 4;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    background-color: #fff;
+    max-height: 550px;
+}
+
+.userListUser {
+    display: flex;
+    align-items: center;
+}
+
+.productListImg {
+    width: 55px;
+    height: 55px;
+    margin: 8px;
+    object-fit: contain;
+}
+
+.userAction {
+    display: flex;
+    align-items: center;
+}
+
+.userListEdit {
+    padding: 5px 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    border: 1px solid #5550bd;
+    transition: all 0.3s ease;
+    min-width: 80px;
+    background-color: #5550bd;
+    color: #fff;
+    margin-right: 20px;
+}
+
+.userListEdit:hover {
+    background-color: #fff;
+    color: #5550bd;
+}
+
+.userListDelete {
+    cursor: pointer;
+    transition: all 0.3s ease;
+    color: red;
+}
+
+.userListDelete:hover {
+    transform: scale(1.2);
+}
